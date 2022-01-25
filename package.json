@@ -8,15 +8,27 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^0.25.0",
     "next": "12.0.8",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-modal": "^3.14.4",
+    "styled-components": "^5.3.3"
   },
   "devDependencies": {
+    "@testing-library/dom": "^8.11.2",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
     "@types/node": "17.0.11",
     "@types/react": "17.0.38",
+    "@types/react-modal": "^3.13.1",
+    "@types/styled-components": "^5.1.21",
+    "babel-jest": "^27.4.6",
     "eslint": "8.7.0",
     "eslint-config-next": "12.0.8",
+    "jest": "^27.4.7",
+    "jest-dom": "^4.0.0",
+    "jest-mock": "^27.4.6",
     "typescript": "4.5.5"
   }
 }
