@@ -1,10 +1,14 @@
 import type { NextPage } from 'next';
+import { Container } from '../styles/home.styles';
+import { Search } from '../components/Search';
+import { TransactionsTable } from '../components/TransactionsTable';
 
 const Home: NextPage = () => {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <Container>
+      <Search />
+      <TransactionsTable />
+    </Container>
   );
 };
 
