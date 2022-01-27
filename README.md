@@ -9,17 +9,17 @@
   <ol>
     <li><a href="#sobre-o-projeto">Sobre o projeto</a>
       <ul>
-        <li><a href="#tecnologias-utilizadas">Tecnologias utilizadas</a></li>
+        <li><a href="#coffee-tecnologias-utilizadas">Tecnologias utilizadas</a></li>
       </ul>
     </li>
-    <li><a href="#instalacao-das-dependencias">Instalação das dependências</a>
+    <li><a href="#instalação-das-dependências">Instalação das dependências</a>
       <ul>
-        <li><a href="#pre-requisitos">Pré-requisitos</a></li>
-        <li><a href="#instalacao">Instalação</a></li>
+        <li><a href="#computer-pré-requisitos">Pré-requisitos</a></li>
+        <li><a href="#rocket-instalação">Instalação</a></li>
       </ul>
     </li>
-    <li><a href="#utilizacao">Utilização</a></li>
-    <li><a href="#to-do">To-Do</a></li>
+    <li><a href="#utilização">Utilização</a></li>
+    <li><a href="#notebook-to-Do">To-Do</a></li>
   </ol>
 </details>
 
@@ -41,7 +41,7 @@ Por questões de acessibilidade o cursor do mouse se torna um ponteiro ao passar
 
 Os dados das transações são formatados no momento em que é feito a requisição, estilizando a moeda para o formato em Reais (BRL). O valor transferido/retirado passa a ter uma cor vermelha para indicar débito, e a barra de progresso muda de acordo com o _status_ da transação.
 
-### :coffee: Tecnologias utilizadas {#tecnologias-utilizadas}
+### :coffee: Tecnologias utilizadas
 
 Tecnologias utilizadas no desenvolvimento da aplicação.
 
@@ -65,9 +65,9 @@ Entre as tecnologias utilizadas, podemos citar algumas como:
 
 - [styled-components](https://styled-components.com/): Biblioteca para utilização de CSS in JS, adicionando estilização aos arquivos JavaScript/TypeScript, utilizado para criação de componentes estilizados.
 
-## Instalação das dependências {#instalacao-das-dependencias}
+## Instalação das dependências
 
-### :computer: Pré-requisitos {#pre-requisitos}
+### :computer: Pré-requisitos
 
 Para a utilização da aplicação são necessários alguns softwares, listados abaixo:
 
@@ -75,7 +75,7 @@ Para a utilização da aplicação são necessários alguns softwares, listados 
 - [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/): Gerenciador de pacotes para a instalação automática das dependências do projeto
 - [Node.js](https://nodejs.org/en/): Runtime para utilizar o gerenciador de pacotes e necessário para rodar a aplicação.
 
-### :rocket: Instalação {#instalacao}
+### :rocket: Instalação
 
 Passos para a instalação do projeto:
 
@@ -106,7 +106,7 @@ Passos para a instalação do projeto:
    npm install
    ```
 
-## Utilização {#utilizacao}
+## Utilização
 
 > Obs: Altere o comando de **yarn** para **npm run**, caso esteja utilizando o _npm_ ao invés do _yarn_ como gerenciador de pacotes.
 
@@ -138,7 +138,7 @@ yarn dev
 yarn test
 ``` -->
 
-## :notebook: To-Do {#to-do}
+## :notebook: To-Do
 
 Algumas coisas que ainda precisam ser implementadas ou alteradas no projeto:
 
